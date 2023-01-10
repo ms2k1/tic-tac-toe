@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <script defer src="./tictactoe.js"></script>
+    <link rel="stylesheet" href="./style.css"></script>
+</head>
+<body>
+    <div id="head">
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div id="select">
+        <div id="select_center">
+            <h2>Select your opponent</h2>
+            <div id="select_opt">
+                <label>
+                    <input id="sel_hum" type="radio" name="human" value="human">
+                    Human
+                </label><span></span>
+                <label>
+                    <input id="sel_com" type="radio" name="computer" value="computer">
+                    Computer
+                </label>
+            </div>
+            <button id="confirm" class="interaction">CONFIRM</button>
+        </div>
+    </div>
+    
+    <div id="playfield">
+        <h3>TEXT</h3>
+        <table>
+            <tr>
+                <td>
+                    <button data-index=0 id="up_left" class="tic_tac_toe_button">X</button>
+                </td>
+                <td>
+                    <button data-index=1 id="up_mid" class="tic_tac_toe_button">O</button>
+                </td>
+                <td>
+                    <button data-index=2 id="up_right" class="tic_tac_toe_button">X</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-index=3 id="mid_left" class="tic_tac_toe_button">X</button>
+                </td>
+                <td>
+                    <button data-index=4 id="mid_mid" class="tic_tac_toe_button"></button>
+                </td>
+                <td>
+                    <button data-index=5 id="mid_right" class="tic_tac_toe_button">X</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button data-index=6 id="down_left" class="tic_tac_toe_button">X</button>
+                </td>
+                <td>
+                    <button data-index=7 id="down_mid" class="tic_tac_toe_button">X</button>
+                </td>
+                <td>
+                    <button data-index=8 id="down_right" class="tic_tac_toe_button">X</button>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <button id="reset" class="interaction">RESET</button>
+        </div>
+    </div>
+</body>
+</html>
