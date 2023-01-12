@@ -3,13 +3,11 @@ body {
 }
 
 h1 {
-    background: linear-gradient(180deg, aqua, #11CC55);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     margin:20px 0px 0px 0px;
-    text-shadow: #00FFAACC 0 0 16px;
+    text-shadow: #00FFAACC 0px 0 16px;
 }
 
 table {
